@@ -1,0 +1,165 @@
+@font-face {
+    src: url("../fonts/AvenirNext-Regular-08.ttf");
+    font-family: "Avenir-medium";
+}
+@font-face{
+    src: url("../fonts/AvenirNext-DemiBold-03.ttf");
+    font-family: "Avenir-Demibold";
+}
+
+@font-face{
+    src: url("../fonts/AvenirNext-Bold-01.ttf");
+    font-family: "Avenir-Bold";
+}
+
+h1 {
+    font-family: "Avenir-Demibold" !important;}
+
+h2 {
+    font-family: "Avenir-medium" !important;}
+
+h3 {
+    font-family: "Avenir-Demibold";
+}
+
+p {
+    font-family: "Avenir-medium";
+    font-size:16px;
+} 
+
+h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+.a{
+    width: 32%;
+    background-color: white;
+}
+
+.b{
+    width: 68%;
+}
+
+.c{
+    height: 50vh;
+    background-image: url("../images/20191024_150920\ copia.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.d{
+    height: 50vh;
+    background-image: url("../images/stonewall\ 20\ copia.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.e{
+    width: 100%;
+    height: 100%;
+    background-color:#F09999;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.f{
+    width: 100%;
+    height: 100%;
+    background-color:#99F0DB;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.g{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 5%;
+}
+
+.h{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 5%;
+}
+
+.icon img{ 
+    width: 26%;
+    margin-bottom: 10px;
+}
+.top{ 
+display: flex;
+text-align: center;
+
+}
+
+.middle{ 
+    display: flex;
+    text-align: center;
+    }
+
+.bottom{ 
+    display: flex;
+    text-align: center;
+    }
+
+.top, .middle, .bottom {
+    display: flex;
+    align-items: flex-end;
+    padding: 3% 0;
+    justify-content: space-between;
+}
+
+
+.icons-container{
+    padding: 2% 0 5% 0
+}
+
+
+.icon {
+    width: 22.5%;
+}
+
+.grupo-icon-contactame {
+    display: flex;
+    align-items: flex-end;
+    padding: 3% 0;
+    justify-content: flex-start;
+}
+
+.icon-contactame img{ 
+    width: 22.5%;
+    margin: 0 10px 0 0;
+}
+
+.g{
+    LINE-HEIGHT:30px;
+}
+
+.e:hover {
+    background-color: gold;
+    width: 100%;
+    z-index: 1;
+}
